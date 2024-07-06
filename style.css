@@ -4,15 +4,19 @@ body{
     background-clip: content-box  ;
 }
 .div1{
+    max-width: 50%;
+    margin-left:5%;
     text-align: center;
     border: 5px double;
     background-color: turquoise;
 }
 .name{
     font-size: 50px;
-    color: rgb(38, 88, 88);
+    color: red;
 }
 .div2{
+    max-width: 50%;
+    margin-left:45%;
     text-align: center;
     border: 3px solid firebrick;
     margin-top: 10px;
@@ -26,18 +30,21 @@ body{
     background-color:rgb(248, 147, 167) ;
 }
 .schooling{
-    width:30%;
-    padding-left:35% ;
+    max-width: 60%;
+    margin: 0 auto;
     font-size: 15px;
 }
 .div3{
+    max-width: 70%;
+    margin: 0 auto;
     text-align: center;
     border: 2px dashed indigo;
     margin-top: 10px;
+    background-color: aqua;
 }
 .website{
-    width: 30%;
-    padding-left: 30%;
+    width: 34%;
+    padding-left: 5%;
     font-style: oblique;
 }
 .cuet{
@@ -46,12 +53,12 @@ body{
 }
 .github{
     width: 35%;
-    padding-left: 45%;
+    padding-left: 60%;
     font-family: fantasy;
     font-style: italic;
 }
 .sign{
-    padding-left: 25%;
+    padding-left: 55%;
     margin-top: -1%;
 }
 .div4{
