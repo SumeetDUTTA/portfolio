@@ -1,0 +1,117 @@
+body{
+    background-color:whitesmoke;
+    background-size: auto;
+    background-clip: content-box  ;
+}
+.div1{
+    text-align: center;
+    border: 5px double;
+    background-color: turquoise;
+}
+.name{
+    font-size: 50px;
+    color: rgb(38, 88, 88);
+}
+.div2{
+    text-align: center;
+    border: 3px solid firebrick;
+    margin-top: 10px;
+}
+.year{
+    font-size:17px ;
+}
+.collagename{
+    font-size: 25px;
+    color: darkblue;
+    background-color:rgb(248, 147, 167) ;
+}
+.schooling{
+    width:30%;
+    padding-left:35% ;
+    font-size: 15px;
+}
+.div3{
+    text-align: center;
+    border: 2px dashed indigo;
+    margin-top: 10px;
+}
+.website{
+    width: 30%;
+    padding-left: 30%;
+    font-style: oblique;
+}
+.cuet{
+    text-decoration: underline red;
+    color: red;
+}
+.github{
+    width: 35%;
+    padding-left: 45%;
+    font-family: fantasy;
+    font-style: italic;
+}
+.sign{
+    padding-left: 25%;
+    margin-top: -1%;
+}
+.div4{
+    text-align: center;
+    background-color:azure;
+    box-sizing: content-box;
+}
+.label1{
+    margin-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 1%;
+}
+.input1{
+    margin-bottom: 10px;
+    border: 1px outset;
+}
+.label2{
+    margin-bottom: 10px;
+    padding-right: 1%;
+}
+.input2{
+    margin-bottom: 10px;
+    border: 1px inset;
+}
+.label3{
+    margin-bottom: 10px;
+    padding-left: 4%;
+    padding-right: 1%;
+}
+.input3{
+    margin-bottom: 10px;
+    padding-left: 1%;
+    border: 1px ridge;
+}
+.submit{
+    margin-bottom: 10px;
+}
+.div5{
+    text-align: center;
+}
+.dropdown{
+    text-align: center;
+}
+.button{
+    cursor: pointer;
+}
+.dropmenu{
+    cursor:auto;
+    display: none;
+    position:relative;
+    min-width: 150px;
+}
+.dropmenu b{
+    padding-left: 50px;
+    padding: 5px;
+    display: block;
+}
+.dropmenu b:hover{
+    background-color: gray;
+}
+.dropdown:hover .dropmenu{
+    display: block;
+}
