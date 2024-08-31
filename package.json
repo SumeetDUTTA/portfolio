@@ -1,0 +1,26 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "wbe dev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/SumeetDUTTA/portfolio.git)"
+  },
+  "keywords": [
+    "sumeet",
+    "dutta"
+  ],
+  "author": "sumeet dutta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "reviews": "^0.1.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}
